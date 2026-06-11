@@ -159,7 +159,8 @@
 .hero__divider {
   width: 220px;
   height: 1px;
-  background: linear-gradient(to right, var(--forest) 0%, transparent 100%);
+  background: var(--sage) 100%;
+  display: flex;
 }
 
 /* ── Hero artwork ─────────────────────────────────────────────────────── */

@@ -201,8 +201,10 @@ function Hero() {
           <button className="hero__swatch hero__swatch--sage"   title="Sage"   />
           <button className="hero__swatch hero__swatch--blush"  title="Blush"  />
         </div>
-
-        <div className="hero__divider" aria-hidden="true" />
+        
+        <div className="hero__divider">
+          <span style={{ color: 'var(--sage)' }}>✦</span>
+        </div>
       </div>
 
       {/* ── Artwork / photo column ─────────────────────────────────────── */}
